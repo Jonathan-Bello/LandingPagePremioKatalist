@@ -1,0 +1,295 @@
+.card {
+  width: 100%;
+  color: #fff;
+}
+
+.card h2 {
+  font-family: "Netrua Display";
+  font-size: 2.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0 2rem 0;
+  margin: 0;
+  margin-bottom: -0.5rem;
+  background: linear-gradient(90deg, #574a8a 0%, #1ba79e 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: normal;
+}
+
+.card__content {
+  background: linear-gradient(89.29deg, #574a8a 0%, #1ba79e 99%);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+
+  font-family: "Gotham Light";
+  font-size: 0.9rem;
+  text-align: end;
+  padding: 0 1rem 1rem;
+
+  clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
+  position: relative;
+  color: red;
+}
+
+.card__content h3 {
+  font-family: "Netrua Display";
+  color: #1c2e35;
+  font-size: 2.5rem;
+  position: relative;
+  top: 0rem;
+  right: -2rem;
+  margin: 0;
+  text-transform: uppercase;
+  line-height: normal;
+}
+
+.card__content__slogan {
+  font-family: "Netrua Display Light";
+  font-size: 0.9rem;
+  text-align: center;
+  text-transform: uppercase;
+  padding-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+.card__content__slogan span {
+  font-size: 1.45rem;
+  color: #fff;
+}
+
+.card__content__slogan b {
+  font-size: 1.4rem;
+  font-family: "Netrua Display";
+  color: #fff;
+}
+
+.card__content__text {
+  font-family: "Gotham Light";
+  font-size: 0.9rem;
+  text-align: center;
+  padding-left: 2rem;
+  color: #fff;
+}
+
+.card__content__text b {
+  font-family: "Gotham";
+}
+
+.card__content__listItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  padding-left: 3rem;
+  margin-bottom: 2rem;
+  color: #fff;
+}
+
+.card__content__listItem svg {
+  width: 7rem;
+  margin-right: 1rem;
+}
+
+.card__content__listItem h4 {
+  font-family: "Gotham";
+  font-size: 1.1rem;
+  margin-bottom: 0.35rem;
+  color: #fff;
+}
+
+.card__content__listItem p {
+  font-family: "Gotham Light";
+  font-size: 0.9rem;
+  margin: 0;
+  color: #fff;
+}
+
+/* modificar los dots de una lista ordenada hacerlos mas grande y con un circulo al rededor del numero*/
+.card__content ol {
+  list-style: none;
+  counter-reset: li;
+  font-family: "Gotham Light";
+  font-size: 0.9rem;
+  text-align: start;
+  margin: 0;
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: start;
+  padding-left: 3rem;
+  padding-top: 1rem;
+  position: relative;
+  right: 0;
+  width: 80%;
+
+  margin-bottom: 1rem;
+}
+
+.card__content ol li {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  color: #fff;
+  gap: 0.5rem;
+}
+
+/* .card__content ol li span {
+  color: white;
+  width: 2.2rem;
+  height: 2.2rem;
+  min-width: 2.2rem;
+  border: 1px solid white;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0.5rem;
+} */
+
+.card__dot--requisitos {
+  color: white;
+  width: 2.2rem;
+  height: 2.2rem;
+  min-width: 2.2rem;
+  border: 1px solid white;
+  border-radius: 50%;
+  position: relative;
+}
+
+.card__dot--requisitos::before {
+  content: counter(li);
+  counter-increment: li;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 1rem;
+  font-family: "Gotham Light:";
+}
+
+.card__content ol li p {
+  color: #fff;
+}
+
+.card__content ol li b {
+  font-family: "Gotham";
+  display: inline;
+  color: #fff;
+}
+
+/* detectar el tercer elemento con la clase card__content */
+.card__content:nth-child(3) {
+  background: linear-gradient(89.29deg, #574a8a 0%, #1ba79e 99%);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+
+  font-family: "Gotham Light";
+  font-size: 0.9rem;
+  text-align: end;
+  padding: 0 1rem 1rem;
+
+  clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
+  position: relative;
+}
+
+.card__content ul {
+  padding-left: 3.8rem;
+  text-align: start;
+  color: #fff;
+}
+
+@media screen and (min-width: 640px) {
+  .card__content__listItem {
+    max-width: 60%;
+  }
+
+  .card__content__text {
+    max-width: 70%;
+  }
+
+  .card__content ol {
+    max-width: 60%;
+  }
+
+  .section2 article:nth-child(3) .card__content h3 {
+    /* background-color: beige; */
+    max-width: 50%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .card__content {
+    clip-path: polygon(10% 0, 100% 0%, 100% 100%, 0% 100%);
+  }
+
+  .card h2 {
+    text-align: start;
+    padding-left: 12rem;
+    font-size: 3rem;
+  }
+
+  .card__content h3 {
+    font-size: 3rem;
+    left: 0;
+    position: absolute;
+    text-align: center;
+  }
+
+  .section2 article:nth-child(3) .card__content h3 {
+    padding-top: 0.5rem;
+    max-width: 100%;
+  }
+
+  .card__content {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 4rem 6rem 0;
+    min-height: 15rem;
+  }
+
+  .card__content__arrow {
+    transform: rotate(-90deg);
+  }
+
+  .card__content__slogan {
+    padding-left: 0;
+  }
+
+  .card__content__text {
+    max-width: 50%;
+    text-align: start;
+  }
+
+  .card__content__listItem {
+    text-align: start;
+  }
+
+  .card__content ol {
+    max-width: 60%;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .card__content ul {
+    max-width: 20%;
+    font-size: 0.9rem;
+    padding: 0;
+  }
+
+  .section2 article:nth-child(3) .card__content {
+    padding: 4rem 3rem 0 6rem;
+  }
+}

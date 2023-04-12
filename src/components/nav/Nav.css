@@ -1,0 +1,25 @@
+.navlist {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.navlist li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navlist li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  font-family: "Gotham Light";
+}
+
+.navlist svg {
+  width: 6rem;
+}
