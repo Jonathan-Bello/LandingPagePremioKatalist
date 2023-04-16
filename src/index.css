@@ -7263,31 +7263,31 @@ template {
 @font-face {
   font-family: "Netrua Display Light";
   src: url("https://activa.org.mx/wp-content/uploads/font-organizer/NeutraDisp-Light.otf");
-  /* src: url("assets/fonts/GothamLight.ttf"); */
+  src: url("assets/fonts/GothamLight.ttf");
 }
 
 @font-face {
   font-family: "Netrua Display";
   src: url("https://activa.org.mx/wp-content/uploads/font-organizer/NeutraDisp-Bold.otf");
-  /* src: url("assets/fonts/NeutraDisp-Bold.otf"); */
+  src: url("assets/fonts/NeutraDisp-Bold.otf");
 }
 
 @font-face {
   font-family: "Gotham Book";
   src: url("https://activa.org.mx/wp-content/uploads/font-organizer/GothamBook.otf");
-  /* src: url("assets/fonts/GothamBook.otf"); */
+  src: url("assets/fonts/GothamBook.otf");
 }
 
 @font-face {
   font-family: "Gotham";
   src: url("https://activa.org.mx/wp-content/uploads/font-organizer/GothamMedium.ttf");
-  /* src: url("assets/fonts/GothamMedium.ttf"); */
+  src: url("assets/fonts/GothamMedium.ttf");
 }
 
 @font-face {
   font-family: "Gotham Light";
   src: url("https://activa.org.mx/wp-content/uploads/font-organizer/GothamLight.ttf");
-  /* src: url("assets/fonts/GothamLight.ttf"); */
+  src: url("assets/fonts/GothamLight.ttf");
 }
 
 :root {
