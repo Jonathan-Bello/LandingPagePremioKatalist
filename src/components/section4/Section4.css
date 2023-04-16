@@ -6,6 +6,8 @@
   margin-bottom: 2rem;
   padding: 4rem 0.5rem;
   text-transform: uppercase;
+  height: 4rem;
+  line-height: 170%;
 }
 
 .footer__links {
