@@ -101,6 +101,15 @@
   position: relative;
   width: 100%;
   color: #fff;
+  margin-top: 1rem;
+}
+
+.section1__title::before {
+  content: "En honor a SALOMON y JANET COHEN";
+  font-family: "Gotham";
+  font-size: 0.8rem;
+  color: #fff;
+  text-transform: uppercase;
 }
 
 .section1__title__title {
@@ -160,6 +169,7 @@
     top: 5rem;
     right: 0;
     width: 70%;
+    margin-right: 12rem;
   }
 
   .section1::after {
@@ -179,6 +189,14 @@
 
   .section1__title {
     margin-top: -3rem;
+  }
+
+  .section1__title::before {
+    font-size: 1rem;
+    text-align: end;
+    width: 100%;
+    display: block;
+    padding: 0 3rem 0 0;
   }
 
   .section1__title__title {
@@ -204,5 +222,10 @@
     right: 2rem;
     height: 150%;
     z-index: 5;
+  }
+
+  .section1__title::before {
+    font-size: 1.1rem;
+    padding: 0 2rem 0 0;
   }
 }

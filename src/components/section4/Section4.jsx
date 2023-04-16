@@ -11,7 +11,7 @@ const Section4 = () => {
       </div>
 
       <img
-        src={"https://activa.org.mx/wp-content/uploads/2023/03/marcas.png"}
+        src={"https://activa.org.mx/wp-content/uploads/2023/04/marcas.png"}
         alt="marcas"
         className="section4__marcas"
       />
