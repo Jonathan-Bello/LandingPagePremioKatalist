@@ -16,7 +16,7 @@ const Section2 = () => {
           <p className="card__content__slogan">
             EMPODERAR A EMPRENDEDORES
             <span>Y EMPRENDEDORAS</span>
-            <b> DE DE LA COMUNIDAD </b>
+            <b> DE LA COMUNIDAD </b>
           </p>
 
           <svg
